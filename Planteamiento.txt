@@ -1,0 +1,10 @@
+BOXCINEMAS:
+La entrada para el cine es de $3. Se conoce la información de varias familias que fueron a 
+ver películas, y se desea calcular el precio a pagar por cada una. También se sabe que los días 
+lunes el precio de cada entrada se reduce a la mitad. Cines Unidos reporta la cantidad de dinero 
+inicial que tiene en caja, y requiere el procesamiento de la siguiente información: precio a pagar 
+por cada familia, familia que pagó más, promedio pagado los días lunes y total de dinero que le 
+queda al final de la jornada. Para leer el día: 1=lunes, 2=martes, etc.
+
+
+

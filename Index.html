@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="es">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <title>BoxCinemas</title>
+    <link rel="stylesheet" href="css/Styles.css" />
+  </head>
+  <body>
+    <section id="mainForm">
+      <h3>BoxCinemas</h3>
+      <table id="mainForm_tabla">
+        <tr>
+          <th>Nombre de la familia</th>
+          <th>Cantidad Entradas</th>
+          <th>Dia de la semana</th>
+        </tr>
+      </table>
+      <h5>El total a pagar es: <span id="mainForm_lblFamiliaPago"></span>$</h5>
+      <h5>La familia con el mayor monto a pagar es la familia <span id="mainForm_lblNombFamiliaPagoMas"></span> con un monto de: <span id="mainForm_lblCostFamiliaPagoMas"></span>$</h5>
+      <h5>El promedio de monto los dias lunes es: <span id="mainForm_lblPromedioLunes"></span></h5>
+      <h5>El monto total de la caja es: <span id="mainForm_lblTotalJornada"></span>$</h5>
+      <h5>El monto inicial de caja es: <span id="mainForm_lblMostrardineroCaja"></span>$</h5>
+     <button id="mainForm_btAgregar">Agregar Familia</button>
+    </section>
+
+    <section id="familiaForm">
+      <h3>Datos de la familia</h3>
+      <input type="text" id="familiaForm_inNombFamilia" placeholder="Nombre de la familia"></input>
+      <input type="text" id="familiaForm_inCantEntradas" placeholder="Cantidad de entradas"></input>
+      <input type="text" id="familiaForm_inDia" placeholder="Dia de la semana"></input>
+      <input type="text" id="familiaForm_inMontoInicial" placeholder="Monto Inicial de Caja"></input>
+      <button id="familiaForm_btAceptar">Aceptar</button> 
+    </section>
+  </body>
+  <script type="module">
+    import Controlador from "./js/Controlador.js";
+    new Controlador();
+  </script>
+</html>
